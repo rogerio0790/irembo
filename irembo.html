@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Dashboard</title>
+    <link rel="stylesheet" href="irembo.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>Services</h2>
+            <ul>
+                <li><a href="#">Submitted Applications</a></li>
+                <li><a href="#">Overview</a></li>
+            </ul>
+            <div class="sidebar-footer">
+                <button>Help</button>
+                <button>Settings</button>
+            </div>
+        </aside>
+
+        <!-- Main content -->
+        <div class="main-content">
+            <!-- Top Bar -->
+            <header class="top-bar">
+                <div class="logo">IremboGov</div>
+                <div class="user-info">
+                    <span>UWIZERA Fraterne</span>
+                    <select>
+                        <option>Kinyarwanda</option>
+                        <option>English</option>
+                    </select>
+                </div>
+            </header>
+
+            <!-- Application Section -->
+            <section class="applications">
+                <div class="header">
+                    <h2>Dosiye zanjye</h2>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Enter application number">
+                        <button>Search</button>
+                    </div>
+                </div>
+
+                <!-- Table -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Application Number</th>
+                            <th>Service</th>
+                            <th>Applicant</th>
+                            <th>Status</th>
+                            <th>Fee</th>
+                            <th>Submitted Date</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>B240805160246JOFF</td>
+                            <td>ID Replacement</td>
+                            <td>NZIKWIKIZA Christella</td>
+                            <td>Approved</td>
+                            <td>RWF 3,000</td>
+                            <td>08/05/24</td>
+                            <td>
+                                <button>Download</button>
+                                <button>View</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
